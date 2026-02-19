@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor defining contact info storage (address, mail, tel) and contact form entry collection with public shared functions for setting/getting contact info and adding form entries.",
+  "feature_evidence.json": "Feature evidence report documenting three implemented features: dark green (#3D4B33) background, cream (#F8EEE1) accent color, and Sansation font family implementation across frontend components.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the implementation of dark green backgrounds, cream accents, and Sansation typography across all React components and configuration files.",
+  "frontend/index.css": "Tailwind CSS base styles with OKLCH color system defining CSS custom properties for light and dark themes, including background, foreground, accent, and component-specific color tokens.",
+  "frontend/index.html": "HTML entry point importing Sansation font family from Google Fonts (weights 300, 400, 700) and mounting the React app to the root div.",
+  "frontend/src/App.tsx": "Root React component that renders the Home page and imports global CSS styles.",
+  "frontend/src/components/About.tsx": "About section component displaying company description with cream-colored separators, stats grid with icons (experience, clients, support, rating), and Sansation typography.",
+  "frontend/src/components/Contact.tsx": "Contact form component with controlled inputs for name/email/message, displays contact info (address, phone, email) from backend, and submits form entries using React Query mutations with toast notifications.",
+  "frontend/src/components/Footer.tsx": "Footer component with dark background, cream accents, brand logo, quick navigation links, social media icons (Facebook, Instagram, X), and Caffeine.ai attribution.",
+  "frontend/src/components/Hero.tsx": "Hero section with full-screen background image, gradient overlay, ZORO groom branding with cream accent, 'Shop Now' and 'Our Services' buttons, and animated scroll indicator.",
+  "frontend/src/components/Navigation.tsx": "Fixed navigation bar component with logo, desktop/mobile menus, smooth scrolling to sections, and active section highlighting based on scroll position.",
+  "frontend/src/components/Portfolio.tsx": "Portfolio gallery component displaying four grooming work examples in a responsive grid with hover effects and modal dialogs for enlarged image viewing.",
+  "frontend/src/components/Services.tsx": "Services section component showcasing three grooming services (haircut, beard grooming, hot towel shave) in card layouts with icons and descriptions.",
+  "frontend/src/hooks/useActor.ts": "React hook that manages the ICP backend actor instance, creating authenticated or anonymous actors based on Internet Identity state and invalidating dependent queries on actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching contact info and submitting contact form data through the ICP backend actor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom OKLCH color variables for dark green and cream theme, including dark mode support and Sansation font family setup.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider, then renders the root App component.",
+  "frontend/src/pages/Home.tsx": "Main home page component that composes Navigation, Hero, Services, Portfolio, About, Contact, and Footer sections with scroll-linked navigation.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration defining custom color palette using OKLCH color space (primary, secondary, destructive, muted, accent, accent-gold, etc.), Sansation font family, border radius variables, custom shadows, and accordion animations. Includes typography, container queries, and animate plugins.",
+  "project_state.json": "Project state tracking for ZORO groom portfolio website with brand colors (#3D4B33 dark green, #F8EEE1 cream), Sansation typography, and 10 completed features including homepage hero, services, gallery, about, contact sections, navigation, and design theme implementation."
+}
